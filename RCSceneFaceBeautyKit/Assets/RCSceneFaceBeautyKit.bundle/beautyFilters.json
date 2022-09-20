@@ -1,0 +1,458 @@
+[
+    {
+        "type":2,
+        "key":"origin",
+        "title":"原图",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"bailiang1",
+        "title":"白亮1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"bailiang2",
+        "title":"白亮2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"bailiang3",
+        "title":"白亮3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"bailiang4",
+        "title":"白亮4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"bailiang5",
+        "title":"白亮5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"bailiang6",
+        "title":"白亮6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"bailiang7",
+        "title":"白亮7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen1",
+        "title":"粉嫩1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen2",
+        "title":"粉嫩2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen3",
+        "title":"粉嫩3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen4",
+        "title":"粉嫩4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen5",
+        "title":"粉嫩5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen6",
+        "title":"粉嫩6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen7",
+        "title":"粉嫩7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"fennen8",
+        "title":"粉嫩8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing1",
+        "title":"个性1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing2",
+        "title":"个性2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing3",
+        "title":"个性3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing4",
+        "title":"个性4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing5",
+        "title":"个性5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing6",
+        "title":"个性6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing7",
+        "title":"个性7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing8",
+        "title":"个性8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing9",
+        "title":"个性9",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing10",
+        "title":"个性10",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing11",
+        "title":"个性11",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"heibai1",
+        "title":"黑白1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"heibai2",
+        "title":"黑白2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"heibai3",
+        "title":"黑白3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"heibai4",
+        "title":"黑白4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"heibai5",
+        "title":"黑白5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao1",
+        "title":"冷色调1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao2",
+        "title":"冷色调2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao3",
+        "title":"冷色调3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao4",
+        "title":"冷色调4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao5",
+        "title":"冷色调5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao6",
+        "title":"冷色调6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao7",
+        "title":"冷色调7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao8",
+        "title":"冷色调8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao9",
+        "title":"冷色调9",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao10",
+        "title":"冷色调10",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"lengsediao11",
+        "title":"冷色调11",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"nuansediao1",
+        "title":"暖色调1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"nuansediao2",
+        "title":"暖色调2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"nuansediao3",
+        "title":"暖色调3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"xiaoqingxin1",
+        "title":"小清新1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"xiaoqingxin2",
+        "title":"小清新2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"xiaoqingxin3",
+        "title":"小清新3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"xiaoqingxin4",
+        "title":"小清新4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"xiaoqingxin5",
+        "title":"小清新5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"xiaoqingxin6",
+        "title":"小清新6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran1",
+        "title":"自然1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran2",
+        "title":"自然2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran3",
+        "title":"自然3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran4",
+        "title":"自然4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran5",
+        "title":"自然5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran6",
+        "title":"自然6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran7",
+        "title":"自然7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran8",
+        "title":"自然8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao1",
+        "title":"蜜桃1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao2",
+        "title":"蜜桃2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao3",
+        "title":"蜜桃3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao4",
+        "title":"蜜桃4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao5",
+        "title":"蜜桃5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao6",
+        "title":"蜜桃6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao7",
+        "title":"蜜桃7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao8",
+        "title":"蜜桃8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui1",
+        "title":"质感灰1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui2",
+        "title":"质感灰2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui3",
+        "title":"质感灰3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui4",
+        "title":"质感灰4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui5",
+        "title":"质感灰5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui6",
+        "title":"质感灰6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui7",
+        "title":"质感灰7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui8",
+        "title":"质感灰8",
+        "value": 0.4
+    }
+]

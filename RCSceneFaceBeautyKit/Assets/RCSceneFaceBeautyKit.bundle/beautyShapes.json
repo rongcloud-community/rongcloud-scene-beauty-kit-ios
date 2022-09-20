@@ -1,0 +1,110 @@
+[
+    {
+        "type":1,
+        "key":"cheek_thinning",
+        "title":"瘦脸",
+        "value": 0
+    },
+    {
+        "type":1,
+        "key":"cheek_v",
+        "title":"v脸",
+        "value": 0.5
+    },
+    {
+        "type":1,
+        "key":"cheek_narrow",
+        "title":"窄脸",
+        "value": 0
+    },
+    {
+        "type":1,
+        "key":"cheek_small",
+        "title":"小脸",
+        "value": 0
+    },
+    {
+        "type":1,
+        "key":"intensity_cheekbones",
+        "title":"瘦颧骨",
+        "value": 0
+    },
+    {
+        "type":1,
+        "key":"intensity_lower_jaw",
+        "title":"瘦下颌骨",
+        "value": 0
+    },
+    {
+        "type":1,
+        "key":"eye_enlarging",
+        "title":"大眼",
+        "value": 0.4
+    },
+    {
+        "type":1,
+        "key":"intensity_eye_circle",
+        "title":"圆眼",
+        "value": 0
+    },
+    {
+        "type":1,
+        "key":"intensity_chin",
+        "title":"下巴",
+        "value": 0.3
+    },
+    {
+        "type":1,
+        "key":"intensity_forehead",
+        "title":"额头",
+        "value": 0.3
+    },
+    {
+        "type":1,
+        "key":"intensity_nose",
+        "title":"瘦鼻",
+        "value": 0.5
+    },
+    {
+        "type":1,
+        "key":"intensity_mouth",
+        "title":"嘴型",
+        "value": 0.4
+    },
+    {
+        "type":1,
+        "key":"intensity_canthus",
+        "title":"开眼角",
+        "value": 0
+    },
+    {
+        "type":1,
+        "key":"intensity_eye_space",
+        "title":"眼距",
+        "value": 0.5
+    },
+    {
+        "type":1,
+        "key":"intensity_eye_rotate",
+        "title":"眼睛角度",
+        "value": 0.5
+    },
+    {
+        "type":1,
+        "key":"intensity_long_nose",
+        "title":"长鼻",
+        "value": 0.5
+    },
+    {
+        "type":1,
+        "key":"intensity_philtrum",
+        "title":"缩人中",
+        "value": 0.5
+    },
+    {
+        "type":1,
+        "key":"intensity_smile",
+        "title":"微笑嘴角",
+        "value": 0
+    }
+]

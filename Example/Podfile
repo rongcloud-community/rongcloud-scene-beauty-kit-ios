@@ -1,0 +1,24 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'RCSceneFaceBeautyKit_Example' do
+  pod 'RCSceneFaceBeautyKit', :path => '../'
+  pod 'RongFUFaceBeautifier', '~> 5.2.5'
+  pod 'RongCloudRTC/RongRTCLib', '~> 5.2.5'
+  
+  target 'RCSceneFaceBeautyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+post_install do |installer|
+ installer.pods_project.targets.each do |target|
+  target.build_configurations.each do |config|
+   config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+   config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+  end
+ end
+end

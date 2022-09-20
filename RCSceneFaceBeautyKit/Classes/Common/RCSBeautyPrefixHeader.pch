@@ -1,0 +1,20 @@
+//
+//  RCSBeautyPrefixHeader.pch
+//  Pods
+//
+//  Created by 彭蕾 on 2022/9/16.
+//
+
+#ifndef RCSBeautyPrefixHeader_pch
+#define RCSBeautyPrefixHeader_pch
+
+// third party
+#import <YYModel/YYModel.h>
+#import <Masonry/Masonry.h>
+
+// RCS Kit
+#import <RCSceneBaseKit/RCSBaseKit.h>
+
+#import "RCSBeautyConstant.h"
+
+#endif /* RCSKTVMusicPrefixHeader_pch */
