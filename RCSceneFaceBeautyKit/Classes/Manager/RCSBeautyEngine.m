@@ -46,7 +46,8 @@
 
 - (void)showIn:(UIViewController *)parentVC withType:(int)type {
     [self setBeautyEnable:YES];
-
+    [RongFUBeautifier setFaceShape:4];
+    
     RCSBeautyViewController *beautyVC = [RCSBeautyViewController new];
     [parentVC addChildViewController:beautyVC];
     [parentVC.view addSubview:beautyVC.view];
