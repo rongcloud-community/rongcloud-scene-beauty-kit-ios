@@ -193,9 +193,11 @@
 - (void)faceBeautyView:(RCSFaceBeautyView *)view didSelectedIndex:(NSInteger)index {
     switch (view.type) {
         case 0:
+            [RCSBeautyManager shareManager].skinChoice = index;
             self.selectedParam = RCSFUBeautifier.beautySkins[index];
             break;
         case 1:
+            [RCSBeautyManager shareManager].shapeChoice = index;
             self.selectedParam = RCSFUBeautifier.beautyShapes[index];
             break;
             
