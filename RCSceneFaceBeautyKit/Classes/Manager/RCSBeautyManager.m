@@ -25,7 +25,10 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _manager = [[RCSBeautyManager alloc] init];
-        _manager.filterChoice = -1;
+        _manager.skinChoice = 0;
+        _manager.shapeChoice = 0;
+        _manager.filterChoice = 2;
+        
     });
     return _manager;
 }
@@ -154,17 +157,7 @@
 }
 
 - (NSBundle *)sourceBundle {
-    NSURL *bundleURL = [[NSBundle mainBundle] URLForResource:RCSBeautyBundleName withExtension:@"bundle"];
-    if (!bundleURL) {
-        // use_frameworks
-        bundleURL = [[NSBundle mainBundle] URLForResource:@"Frameworks" withExtension:nil];
-        bundleURL = [bundleURL URLByAppendingPathComponent:RCSBeautyBundleName];
-        bundleURL = [bundleURL URLByAppendingPathExtension:@"framework"];
-        NSBundle *associateBundle = [NSBundle bundleWithURL:bundleURL];
-        bundleURL = [associateBundle URLForResource:RCSBeautyBundleName withExtension:@"bundle"];
-    }
-
-    return [NSBundle bundleWithURL:bundleURL];
+    return [NSBundle rcs_bundleWithClass:[self class] bundleName:RCSBeautyBundleName];
 }
 
 @end

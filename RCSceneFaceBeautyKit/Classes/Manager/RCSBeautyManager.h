@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong, readonly) RCSPersistentBeautyModel *beautyModel;
 
+@property (nonatomic, assign) NSInteger skinChoice;
+@property (nonatomic, assign) NSInteger shapeChoice;
 @property (nonatomic, assign) NSInteger filterChoice;
 
 + (instancetype)shareManager;

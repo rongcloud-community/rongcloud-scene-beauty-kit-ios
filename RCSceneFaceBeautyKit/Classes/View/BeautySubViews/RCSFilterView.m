@@ -10,6 +10,8 @@
 
 @interface RCSFilterView () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
+@property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
+
 @end
 
 @class RCSFilterCell;
@@ -22,7 +24,8 @@
     flowLayout.itemSize = CGSizeMake(54, 70);
     flowLayout.sectionInset = UIEdgeInsetsMake(0, 16, 0, 16);
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-
+    self.flowLayout = flowLayout;
+    
     if (self = [self initWithFrame:frame collectionViewLayout:flowLayout]) {
     }
     return self;
@@ -47,6 +50,10 @@
 - (void)setSelectedIndex:(NSInteger)selectedIndex {
     if (selectedIndex >= self.filters.count && selectedIndex >= 0) return;
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:selectedIndex inSection:0];
+    /// 滑动到之前设置的index
+    dispatch_async(dispatch_get_main_queue(), ^{
+          [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+    });
     [self collectionView:self didSelectItemAtIndexPath:indexPath];
 }
 

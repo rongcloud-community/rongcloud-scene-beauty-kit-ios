@@ -229,7 +229,7 @@
     [alertCon addAction:cancleAction];
     [alertCon addAction:certainAction];
     
-    [[self targetViewController]  presentViewController:alertCon animated:YES completion:^{
+    [[self viewController]  presentViewController:alertCon animated:YES completion:^{
     }];
 }
 
@@ -249,17 +249,6 @@
         default:
             break;
     }
-}
-
-
-- (UIViewController *)targetViewController {
-    for (UIView *next = [self superview]; next; next = next.superview) {
-        UIResponder *nextResponder = [next nextResponder];
-        if ([nextResponder isKindOfClass:[UIViewController class]]) {
-            return (UIViewController *)nextResponder;
-        }
-    }
-    return nil;
 }
 
 #pragma mark - lazy load
@@ -298,6 +287,8 @@
         _skinView.backgroundColor = [UIColor blackColor];
         _skinView.delegate = self;
         _skinView.type = 0;
+        _skinView.selectedIndex = [RCSBeautyManager shareManager].skinChoice;
+        [_skinView setRecoverEnable:![[RCSBeautyManager shareManager] isDefaultValue:0]];
     }
     return _skinView;
 }
@@ -309,6 +300,8 @@
         _shapeView.backgroundColor = [UIColor blackColor];
         _shapeView.delegate = self;
         _shapeView.type = 1;
+        _shapeView.selectedIndex = [RCSBeautyManager shareManager].shapeChoice;
+        [_shapeView setRecoverEnable:![[RCSBeautyManager shareManager] isDefaultValue:1]];
     }
     return _shapeView;
 }
@@ -319,7 +312,7 @@
         _filterView.filters = RCSFUBeautifier.beautyFilters;
         _filterView.customDelegate = self;
         _filterView.backgroundColor = [UIColor blackColor];
-        _filterView.selectedIndex = ([RCSBeautyManager shareManager].filterChoice != -1)? [RCSBeautyManager shareManager].filterChoice : 1;
+        _filterView.selectedIndex = [RCSBeautyManager shareManager].filterChoice;
     }
     return _filterView;
 }

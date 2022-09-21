@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface RCSFaceBeautyView : UIView
 
 @property (nonatomic, strong) NSArray<RCSBeautyModel *> *dataArray;
-@property (nonatomic, assign, readonly) NSInteger selectedIndex;
+@property (nonatomic, assign) NSInteger selectedIndex;
 @property (nonatomic, weak) id<RCSFaceBeautyViewDelegate> delegate;
 /// 0: 美肤 1: 美型 
 @property (nonatomic, assign) int type;

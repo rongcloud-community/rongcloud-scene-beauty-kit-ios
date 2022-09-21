@@ -15,7 +15,6 @@
 @property (nonatomic, strong) RCSBeautyButton *recoverBtn;
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UIView *sqLine;
-@property (nonatomic, assign, readwrite) NSInteger selectedIndex;
 
 @end
 
@@ -50,8 +49,20 @@
         make.left.mas_equalTo(self.recoverBtn.mas_right).offset(15);
     }];
 
-    self.selectedIndex = -1;
+    _selectedIndex = -1;
     [self setRecoverEnable:NO];
+}
+
+- (void)setSelectedIndex:(NSInteger)selectedIndex {
+    if (selectedIndex >= self.dataArray.count && selectedIndex >= 0) return;
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:selectedIndex inSection:0];
+    /// 滑动到之前设置的index
+    dispatch_async(dispatch_get_main_queue(), ^{
+          [self.collectionView scrollToItemAtIndexPath:indexPath
+                                      atScrollPosition:UICollectionViewScrollPositionNone
+                                              animated:NO];
+    });
+    [self collectionView:self.collectionView didSelectItemAtIndexPath:indexPath];
 }
 
 - (void)setDataArray:(NSArray<RCSBeautyModel *> *)dataArray {

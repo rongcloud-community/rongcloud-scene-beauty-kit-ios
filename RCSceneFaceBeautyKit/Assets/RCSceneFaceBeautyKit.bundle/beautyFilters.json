@@ -7,6 +7,150 @@
     },
     {
         "type":2,
+        "key":"ziran1",
+        "title":"自然1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran2",
+        "title":"自然2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran3",
+        "title":"自然3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran4",
+        "title":"自然4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran5",
+        "title":"自然5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran6",
+        "title":"自然6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran7",
+        "title":"自然7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"ziran8",
+        "title":"自然8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui1",
+        "title":"质感灰1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui2",
+        "title":"质感灰2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui3",
+        "title":"质感灰3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui4",
+        "title":"质感灰4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui5",
+        "title":"质感灰5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui6",
+        "title":"质感灰6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui7",
+        "title":"质感灰7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"zhiganhui8",
+        "title":"质感灰8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao1",
+        "title":"蜜桃1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao2",
+        "title":"蜜桃2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao3",
+        "title":"蜜桃3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao4",
+        "title":"蜜桃4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao5",
+        "title":"蜜桃5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao6",
+        "title":"蜜桃6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao7",
+        "title":"蜜桃7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"mitao8",
+        "title":"蜜桃8",
+        "value": 0.4
+    },
+    {
+        "type":2,
         "key":"bailiang1",
         "title":"白亮1",
         "value": 0.4
@@ -97,102 +241,6 @@
     },
     {
         "type":2,
-        "key":"gexing1",
-        "title":"个性1",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing2",
-        "title":"个性2",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing3",
-        "title":"个性3",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing4",
-        "title":"个性4",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing5",
-        "title":"个性5",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing6",
-        "title":"个性6",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing7",
-        "title":"个性7",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing8",
-        "title":"个性8",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing9",
-        "title":"个性9",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing10",
-        "title":"个性10",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"gexing11",
-        "title":"个性11",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"heibai1",
-        "title":"黑白1",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"heibai2",
-        "title":"黑白2",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"heibai3",
-        "title":"黑白3",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"heibai4",
-        "title":"黑白4",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"heibai5",
-        "title":"黑白5",
-        "value": 0.4
-    },
-    {
-        "type":2,
         "key":"lengsediao1",
         "title":"冷色调1",
         "value": 0.4
@@ -277,6 +325,72 @@
     },
     {
         "type":2,
+        "key":"gexing1",
+        "title":"个性1",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing2",
+        "title":"个性2",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing3",
+        "title":"个性3",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing4",
+        "title":"个性4",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing5",
+        "title":"个性5",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing6",
+        "title":"个性6",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing7",
+        "title":"个性7",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing8",
+        "title":"个性8",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing9",
+        "title":"个性9",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing10",
+        "title":"个性10",
+        "value": 0.4
+    },
+    {
+        "type":2,
+        "key":"gexing11",
+        "title":"个性11",
+        "value": 0.4
+    },
+    {
+        "type":2,
         "key":"xiaoqingxin1",
         "title":"小清新1",
         "value": 0.4
@@ -313,146 +427,32 @@
     },
     {
         "type":2,
-        "key":"ziran1",
-        "title":"自然1",
+        "key":"heibai1",
+        "title":"黑白1",
         "value": 0.4
     },
     {
         "type":2,
-        "key":"ziran2",
-        "title":"自然2",
+        "key":"heibai2",
+        "title":"黑白2",
         "value": 0.4
     },
     {
         "type":2,
-        "key":"ziran3",
-        "title":"自然3",
+        "key":"heibai3",
+        "title":"黑白3",
         "value": 0.4
     },
     {
         "type":2,
-        "key":"ziran4",
-        "title":"自然4",
+        "key":"heibai4",
+        "title":"黑白4",
         "value": 0.4
     },
     {
         "type":2,
-        "key":"ziran5",
-        "title":"自然5",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"ziran6",
-        "title":"自然6",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"ziran7",
-        "title":"自然7",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"ziran8",
-        "title":"自然8",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao1",
-        "title":"蜜桃1",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao2",
-        "title":"蜜桃2",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao3",
-        "title":"蜜桃3",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao4",
-        "title":"蜜桃4",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao5",
-        "title":"蜜桃5",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao6",
-        "title":"蜜桃6",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao7",
-        "title":"蜜桃7",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"mitao8",
-        "title":"蜜桃8",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui1",
-        "title":"质感灰1",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui2",
-        "title":"质感灰2",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui3",
-        "title":"质感灰3",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui4",
-        "title":"质感灰4",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui5",
-        "title":"质感灰5",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui6",
-        "title":"质感灰6",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui7",
-        "title":"质感灰7",
-        "value": 0.4
-    },
-    {
-        "type":2,
-        "key":"zhiganhui8",
-        "title":"质感灰8",
+        "key":"heibai5",
+        "title":"黑白5",
         "value": 0.4
     }
 ]
