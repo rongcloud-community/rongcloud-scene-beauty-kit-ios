@@ -49,7 +49,7 @@
         make.left.mas_equalTo(self.recoverBtn.mas_right).offset(15);
     }];
 
-    _selectedIndex = -1;
+    _selectedIndex = 0;
     [self setRecoverEnable:NO];
 }
 
@@ -62,7 +62,9 @@
                                       atScrollPosition:UICollectionViewScrollPositionNone
                                               animated:NO];
     });
-    [self collectionView:self.collectionView didSelectItemAtIndexPath:indexPath];
+    
+    _selectedIndex = selectedIndex;
+    
 }
 
 - (void)setDataArray:(NSArray<RCSBeautyModel *> *)dataArray {
@@ -121,14 +123,9 @@
 
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    if (_selectedIndex == indexPath.row) {
-        return;
-    }
-
-    NSIndexPath *oldIndexPath = [NSIndexPath indexPathForRow:_selectedIndex inSection:0];
-    _selectedIndex = indexPath.row;
-    [self.collectionView reloadItemsAtIndexPaths:@[oldIndexPath, indexPath]];
-
+    self.selectedIndex = indexPath.row;
+    [self.collectionView reloadData];
+    
     if (self.delegate && [self.delegate respondsToSelector:@selector(faceBeautyView:didSelectedIndex:)]) {
         [self.delegate faceBeautyView:self didSelectedIndex:indexPath.row];
     }

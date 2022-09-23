@@ -37,7 +37,7 @@
         self.delegate = self;
         self.dataSource = self;
         [self registerClass:[RCSFilterCell class] forCellWithReuseIdentifier:@"RCSFilterCell"];
-        _selectedIndex = -1;
+        _selectedIndex = 2;
     }
     return self;
 }
@@ -52,9 +52,12 @@
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:selectedIndex inSection:0];
     /// 滑动到之前设置的index
     dispatch_async(dispatch_get_main_queue(), ^{
-          [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+          [self scrollToItemAtIndexPath:indexPath
+                                      atScrollPosition:UICollectionViewScrollPositionNone
+                                              animated:NO];
     });
-    [self collectionView:self didSelectItemAtIndexPath:indexPath];
+
+    _selectedIndex = selectedIndex;
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -86,14 +89,8 @@
 
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    if (_selectedIndex == indexPath.row) {
-        return;
-    }
-
-    NSIndexPath *oldIndexPath = [NSIndexPath indexPathForRow:_selectedIndex inSection:0];
-    _selectedIndex = indexPath.row;
-    [self reloadItemsAtIndexPaths:@[oldIndexPath, indexPath]];
-
+    self.selectedIndex = indexPath.row;
+    [self reloadData];
     if (self.customDelegate && [self.customDelegate respondsToSelector:@selector(filterViewDidSelectedIndex:)]) {
         [self.customDelegate filterViewDidSelectedIndex:indexPath.row];
     }
