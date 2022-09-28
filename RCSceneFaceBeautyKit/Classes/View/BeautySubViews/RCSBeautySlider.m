@@ -45,6 +45,10 @@
     self.middleLine.frame =
         CGRectMake(CGRectGetWidth(self.bounds) / 2.0 - 1, CGRectGetHeight(self.bounds) / 2.0 - 4, 2, 8);
     [self setValue:self.value animated:NO];
+    
+    /// bugfixed：iOS 13.6 上不显示 trackView
+    [self bringSubviewToFront:self.trackView];
+    [self bringSubviewToFront:self.middleLine];
 }
 
 - (void)setBidirection:(BOOL)bidirection {
