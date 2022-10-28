@@ -7,10 +7,22 @@
 // FURenderKit 不支持 bitcode 和 模拟器架构
 
 #import <Foundation/Foundation.h>
+#import "RCSBeautyRenderConfig.h"
+#import "RCSBeautyNetworkConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol RCSBeautyEngineDataSource <NSObject>
+
+@optional
+- (RCSBeautyRenderConfig *)customBeautyRenderConfig;
+- (RCSBeautyNetworkConfig *)customBeautyNetworkConfig;
+
+@end
+
 @interface RCSBeautyEngine : NSObject
+
+@property (nonatomic, weak) id<RCSBeautyEngineDataSource> dataSource;
 
 /*!
  美颜引擎单例
@@ -39,6 +51,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)reset;
 
 /*!
+ 清除贴纸
+ 
+ @discussion 执行此方法后，会清除所有贴纸效果，并释放素材和模型资源，但不会关闭美颜以及释放美颜引擎。
+ @remarks RCSceneFaceBeautyKit
+ */
+- (void)clearStickers;
+
+/*!
  开启或者关闭美颜
  
  @param enable YES/NO 是否开启美颜 默认关闭
@@ -48,27 +68,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setBeautyEnable:(BOOL)enable;
 
 /*!
- 设置显示角度
- 
- @param orientation 取值范围 0～3，对应 0～270
- @remarks RCSceneFaceBeautyKit
- */
-- (void)setDisplayOrientation:(int)orientation;
-
-/*!
- 设置是否前置摄像头
- 
- @param front YES/NO 是否前置摄像头
- @discussion 注意，此接口要在切换摄像头时调用
- @remarks RCSceneFaceBeautyKit
- */
-- (void)setIsFrontCamera:(BOOL)front;
-
-/*!
  显示美颜kit
  
  @param parentVC 视图控制器
- @param type 0：美颜
+ @param type 0：美颜 1: 贴纸
  @discussion 仅支持在vc中展示
  @remarks RCSceneFaceBeautyKit
  */

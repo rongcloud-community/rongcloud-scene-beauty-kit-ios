@@ -7,7 +7,7 @@
 
 #import "RCSBeautyViewController.h"
 #import "RCSBeautyView.h"
-#import <Masonry/Masonry.h>
+
 @interface RCSBeautyViewController ()
 
 @property (nonatomic, strong) RCSBeautyView *beautyView;

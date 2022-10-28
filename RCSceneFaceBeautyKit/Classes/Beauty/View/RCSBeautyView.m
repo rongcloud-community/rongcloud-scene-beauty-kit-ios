@@ -27,7 +27,7 @@
 @property (nonatomic, strong) RCSFilterView *filterView;
 @property (nonatomic, strong) RCSBeautyCategoryView *categotyView;
 
-/* 当前选中参数 */
+/** 当前选中参数 */
 @property (strong, nonatomic) RCSBeautyModel *selectedParam;
 
 @end
@@ -267,7 +267,6 @@
 - (UIButton *)compareBtn {
     if (!_compareBtn) {
         _compareBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        UIImage *img = [UIImage rcs_imageNamed:@"icon_contrast" bundle:RCSBeautyBundleName];
         [_compareBtn setImage:RCSBeautyImageNamed(@"icon_contrast")
                      forState:UIControlStateNormal];
         

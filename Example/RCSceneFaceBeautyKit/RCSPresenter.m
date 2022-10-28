@@ -58,6 +58,12 @@
     config.roomType = RCRTCRoomTypeLive;
     config.liveType = RCRTCLiveTypeAudioVideo;
     config.roleType = isAudience ? RCRTCLiveRoleTypeAudience : RCRTCLiveRoleTypeBroadcaster;
+    
+    RCRTCVideoStreamConfig *videoConfig = [RCRTCVideoStreamConfig new];
+    videoConfig.videoSizePreset = RCRTCVideoSizePreset1920x1080;
+    videoConfig.videoFps = RCRTCVideoFPS30;
+    
+    [[RCRTCEngine sharedInstance].defaultVideoStream setVideoConfig:videoConfig];
 
     [[RCRTCEngine sharedInstance] joinRoom:@"16543211"
                                     config:config

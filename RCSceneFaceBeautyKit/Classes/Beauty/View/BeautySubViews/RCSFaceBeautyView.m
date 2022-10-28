@@ -57,7 +57,7 @@
     if (selectedIndex >= self.dataArray.count && selectedIndex >= 0) return;
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:selectedIndex inSection:0];
     /// 滑动到之前设置的index
-    dispatch_async(dispatch_get_main_queue(), ^{
+    dispatch_main_async_safe(^{
           [self.collectionView scrollToItemAtIndexPath:indexPath
                                       atScrollPosition:UICollectionViewScrollPositionNone
                                               animated:NO];

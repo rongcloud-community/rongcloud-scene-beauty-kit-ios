@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RCSceneFaceBeautyKit'
-  s.version          = '0.0.1.3'
+  s.version          = '0.0.2'
   s.summary          = 'RCSceneFaceBeautyKit of RongCloud Scene.'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,8 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'RongFUFaceBeautifier', '~> 5.2.5'
   s.dependency 'RCSceneBaseKit'
+  s.dependency 'SDWebImage'
+  s.dependency 'RCSceneNetworkKit'
   s.dependency 'YYModel'
   s.dependency 'Masonry'
   
